@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#1e1e1e;
+    color:white;
+}
+
+/* Header */
+
+header{
+    background:#111;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.5);
+}
+
+header h1{
+    color:gold;
+    font-size:32px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:gold;
+}
+
+/* Hero Section */
+
+.hero{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.hero-image{
+    width:80%;
+    max-width:900px;
+    border-radius:15px;
+    margin-bottom:30px;
+    box-shadow:0 0 20px rgba(255,255,255,0.15);
+}
+
+.hero h2{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:20px;
+    color:#ddd;
+    margin-bottom:25px;
+}
+
+/* Buttons */
+
+button{
+    background:#00b894;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    font-size:18px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#009970;
+}
+
+/* Booking Form */
+
+.form{
+    display:none;
+    width:400px;
+    background:#2b2b2b;
+    margin:40px auto;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,0.5);
+}
+
+.form h2{
+    margin-bottom:20px;
+    color:gold;
+}
+
+.form input,
+.form select{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+}
+
+/* Table Cards */
+
+.tables{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+    padding:40px;
+}
+
+.card{
+    width:250px;
+    background:#2c2c2c;
+    padding:25px;
+    text-align:center;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,0.5);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:gold;
+    margin-bottom:15px;
+}
+
+.available{
+    color:lime;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.occupied{
+    color:red;
+    font-weight:bold;
+    font-size:18px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+}
+
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    display:block;
+    margin:10px 0;
+}
+
+.hero-image{
+    width:95%;
+}
+
+.form{
+    width:90%;
+}
+
+}

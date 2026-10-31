@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snooker & Pool Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🎱 Snooker & Pool Booking</h1>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Book Table</a>
+        <a href="#">My Booking</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+
+    <img src="images/snooker.jpg" class="hero-image">
+
+    <h2>Book Your Table Online</h2>
+
+    <p>Reserve your favourite Snooker or Pool table anytime and anywhere.</p>
+
+    <button id="bookBtn">Book Now</button>
+
+    <div id="bookingForm" class="form">
+
+        <h2>Booking Form</h2>
+
+        <input type="text" placeholder="Enter Your Name"><br><br>
+
+        <input type="tel" placeholder="Mobile Number"><br><br>
+
+        <select>
+            <option>Select Table</option>
+            <option>Pool Table 1</option>
+            <option>Pool Table 2</option>
+            <option>Snooker Table</option>
+        </select><br><br>
+
+        <input type="date"><br><br>
+
+        <input type="time"><br><br>
+
+        <button id="confirmBtn">Confirm Booking</button>
+
+    </div>
+
+</section>
+
+<section class="tables">
+
+    <div class="card">
+        <h3>🎱 Pool Table 1</h3>
+        <p class="available">Available</p>
+    </div>
+
+    <div class="card">
+        <h3>🎱 Pool Table 2</h3>
+        <p class="occupied">Occupied</p>
+    </div>
+
+    <div class="card">
+        <h3>🎯 Snooker Table</h3>
+        <p class="available">Available</p>
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
