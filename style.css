@@ -51,6 +51,7 @@ nav a:hover{
     object-fit: cover;
     display: block;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
 .hero h2{
