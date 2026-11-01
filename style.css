@@ -49,9 +49,11 @@ nav a:hover{
     width: 60%;
     height: 400px;
     object-fit: cover;
-    display: block;
     border-radius: 10px;
-    margin: 0 auto;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .hero h2{
